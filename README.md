@@ -5,6 +5,7 @@ dynamic online forest monitoring and alert system that empowers people
 everywhere to better manage forests. This repository contains the GFW web app.
 
 ![Global forest watch map](/public/preview.jpg?raw=true "Global Forest Watch")
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjungmin2022%2Fgfw.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjungmin2022%2Fgfw?ref=badge_shield)
 
 # Getting started
 
@@ -73,3 +74,7 @@ https://api.resourcewatch.org/v1/dataset?app=gfw&includes=layer,vocabulary,metad
 We use [BrowserStack](https://www.browserstack.com) to find and fix cross-browser issues.
 
 <a href="https://www.browserstack.com"><img src="https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" height="70" /></a>
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjungmin2022%2Fgfw.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjungmin2022%2Fgfw?ref=badge_large)

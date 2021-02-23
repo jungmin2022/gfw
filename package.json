@@ -146,7 +146,7 @@
     "react-tippy": "^1.4.0",
     "react-toggle": "^4.1.1",
     "react-twitter-conversion-tracker": "^1.0.0",
-    "react-youtube": "^7.9.0",
+    "react-youtube": "^7.13.1",
     "recharts": "^1.7.1",
     "redux": "^4.0.5",
     "redux-actions": "^2.6.5",

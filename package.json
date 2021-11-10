@@ -154,7 +154,7 @@
     "reselect": "4.0.0",
     "responsive-loader": "^1.2.0",
     "simple-entity-decode": "^0.0.3",
-    "svg-sprite-loader": "4.1.3",
+    "svg-sprite-loader": "5.2.1",
     "three": "^0.114.0",
     "three-orbit-controls": "^82.1.0",
     "turf-area": "^3.0.12",

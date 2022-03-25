@@ -16,7 +16,9 @@
     "cy:run": "cypress run",
     "pree2e": "rm -rf .nyc_output coverage .next || true",
     "check-coverage-limits": "nyc report --reporter=text-summary --check-coverage --statements 100",
-    "lint": "eslint ./components/** ./pages/** ./layouts/** ./providers/** ./redux/** ./services/** ./utils/** -c .eslintrc.json --ext js,jsx"
+    "lint": "eslint ./components/** ./pages/** ./layouts/** ./providers/** ./redux/** ./services/** ./utils/** -c .eslintrc.json --ext js,jsx",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -105,7 +107,7 @@
     "jszip": "^3.2.2",
     "jszip-utils": "^0.1.0",
     "layer-manager": "^3.0.8",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "lottie-web": "^5.7.3",
     "luma.gl": "7.3.2",
     "mapbox-gl": "^1.11.1",
@@ -170,7 +172,8 @@
     "vizzuality-components": "^3.0.3",
     "webp-loader": "^0.6.0",
     "webpack-filter-warnings-plugin": "^1.2.1",
-    "wri-json-api-serializer": "^1.0.1"
+    "wri-json-api-serializer": "^1.0.1",
+    "@snyk/protect": "latest"
   },
   "resolutions": {
     "cypress": "^5.5.0",
@@ -181,5 +184,6 @@
   },
   "cacheDirectories": [
     ".next/cache"
-  ]
+  ],
+  "snyk": true
 }

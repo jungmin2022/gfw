@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - layer-manager > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - node-sass > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - recharts > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - vizzuality-components > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - '@next/bundle-analyzer > webpack-bundle-analyzer > lodash':
+        patched: '2022-03-25T21:50:33.687Z'
+    - '@wordpress/api-fetch > @wordpress/url > lodash':
+        patched: '2022-03-25T21:50:33.687Z'
+    - image-trace-loader > node-vibrant > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/types > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > babel-plugin-transform-define > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - react-stickynode > subscribe-ui-event > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - recharts > react-smooth > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - release > @octokit/rest > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - release > inquirer > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - svg-sprite-loader > html-webpack-plugin > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - vizzuality-components > layer-manager > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - '@zeit/next-sass > sass-loader > async > lodash':
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/preset-env > @babel/types > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > styled-jsx > @babel/types > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/preset-env > @babel/plugin-transform-modules-systemjs > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - gfw-components > reflexbox > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - gfw-components > reflexbox > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T21:50:33.687Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-25T21:50:33.687Z'

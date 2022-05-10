@@ -1679,13 +1679,13 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@fullpage/react-fullpage@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@fullpage/react-fullpage/-/react-fullpage-0.1.18.tgz#cdc26ba731d38824e0d234cd2e1153b68bba7786"
-  integrity sha512-Ibhv8bM8oyHMIkGs/SKOtnXbEXM8uevIR7PpGuc+f2Rvs6AnlSqdh6nwtW8aQ9gDUdlniqgM6JOmqDUWgxkQSw==
+"@fullpage/react-fullpage@^0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@fullpage/react-fullpage/-/react-fullpage-0.1.24.tgz#3629a71b370d83e9f3ec3ce15a08b8d5f6146207"
+  integrity sha512-1RST3+VhQ3NHn9YaYdHmfhFZrLEO/O2/DDzDrilZVciWkdDsbLQ48w261PDbgUG+VYin18Zu+4t7OF7wvoZZrg==
   dependencies:
     "@babel/polyfill" "^7.2.5"
-    fullpage.js "^3.0.9"
+    fullpage.js "^4.0.7"
 
 "@hapi/accept@5.0.1":
   version "5.0.1"
@@ -7841,10 +7841,10 @@ fstream@^1.0.0, fstream@^1.0.12:
     mkdirp ">=0.5 0"
     rimraf "2"
 
-fullpage.js@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-3.0.9.tgz#fc7dba41d521f020a51e9c00fb0fee0d2e11d552"
-  integrity sha512-CBJZwOkOjX/RToG0L93LwJW4a+/67+AqGEvEagWh1N5KRgDXEOVKlo/TJzCzSI1LsOulb7yqXE8mOzRZzqeYMA==
+fullpage.js@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-4.0.7.tgz#43736f1bafdd5c11ed1ba14a8b1c215c1f25ba24"
+  integrity sha512-zSoft2+TdX7DbiQYI3koR87merpULVBJY2t7nZd7K0MX0/GjCs+CP+LI6t+8OZhe0fKcCdR+f+IKOFYIpoHM8A==
 
 function-bind@^1.1.1:
   version "1.1.1"
